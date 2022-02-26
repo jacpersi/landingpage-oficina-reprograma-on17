@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body{
+    margin: 0 auto;
+
+}
+
+.container-header{
+    background-image: url(../img/Banner-jacqueline-2.png);
+    background-position: center;
+    text-align:center;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.container-header .content{
+    padding: 200px;    
+}
+
+.container-header img{
+    width: 500px;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+/* BOTÃO SOBRE MIM*/
+.container-header .content a{
+    background:blueviolet;
+    color: #fff;
+    padding: 10px 50px  ;
+    border-radius: 10px; 
+    text-decoration: none;
+    font-weight: bold;   
+    }
+
+/* PARÁGRAFO DO HEADER */
+    .container-header p{
+        font-size: 15px;
+        padding: 10px;
+    }
+
+/* DIV SOBRE MIM */
+.sobre-mim{
+    padding: 100px;
+}
+
+/* CONTEÚDO SOBRE MIM */
+.sobre-mim .content-sobre-mim{
+    display: flex;
+    flex-direction: row;
+}
+
+/* CONFIGS-ALINHAMENTO DO P SOBRE MIM */
+.sobre-mim h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    color: blueviolet;
+    margin-left: 70px;
+}
+
+.sobre-mim .resumo{
+    width: 50%;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400px;
+    margin-left: 70px;
+}
+
+.sobre-mim .resumo a{
+    text-decoration: none;
+    color: blueviolet;
+    border-radius: 10px;
+    padding: 10px 30px;
+    border: 1px solid blueviolet;
+    font-weight: bold;
+    align-content: center;
+}
+
+.sobre-mim .resumo p{
+    line-height: 30px;
+    text-align: justify;
+}
+
+.sobre-mim .skills{
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 25px;
+    margin-left: 150px;
+}
+
+.container-header{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.social{
+    padding: 30px 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    color: #000;
+}
+
+.social .social-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 60px;
+}
+
+.social .social-content .linkedin{
+    background: blueviolet;
+    padding: 50px 70px;
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.social .social-content .github{
+    background: blueviolet;
+    padding: 50px 69px;
+    display: flex;
+    flex-direction: column;
+    margin: 95px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.social .social-content .instagram{
+    background: blueviolet;
+    padding: 50px 60px;
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.social .social-content .whatsapp{
+    background: blueviolet;
+    padding: 50px 60px;
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.social .social-content img{
+    width: 40px;
+    margin: 0 auto;
+    margin-bottom: 15px;    
+}
+
+.social .social-content a{
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.social .social-content p{
+    font-size: 14px;
+    color: #fff;
+}
+
+.rodape{
+    background-color: rgb(212, 148, 250);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: blueviolet;
+    line-height: 15px;
+    text-align: center;
+    padding: 10px;
+}
